@@ -1,0 +1,122 @@
+.contributionForm{
+    padding-left:20%;
+    padding-right:20%;
+}
+
+.bredcrumSection{
+    margin-top: 13vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-Color: 'rgba(0, 0, 0, 0.2)';
+}
+
+.breadcrumb{
+    color: rgba(255, 137.7, 0, 1) !important;
+}
+
+:root {
+  --color-gray: #737888;
+  --color-lighter-gray: #93949a;
+  --color-light-gray: #f7f7fa;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+hr {
+  height: 1px;
+  width: 100%;
+  background-color: var(--color-light-gray);
+  border: 0;
+  margin: 2rem 0;
+}
+
+.formcontainer {
+  max-width: 40rem;
+  padding: 10vw 2rem 0;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.form {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-lighter-gray);
+  padding: .4rem;
+  border-radius: .25rem;
+}
+
+.field__label {
+  color: var(--color-dark);
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-bottom: 0.25rem
+}
+
+.field__input {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+.field:focus-within {
+  border-color: #000;
+}
+
+.fields {
+  display: grid;
+  grid-gap: 1rem;
+}
+.fields--2 {
+  grid-template-columns: 1fr 1fr;
+}
+.fields--3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Submitbutton {
+  background-color: rgba(255, 137.7, 0, 1);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: block;
+  color: #fff;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+}
+.button:focus-visible {
+  background-color: #333;
+}
+
+.HomaImage{
+    width: 150px;
+    margin-right: 30px;
+}
